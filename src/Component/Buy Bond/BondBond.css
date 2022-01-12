@@ -1,0 +1,24 @@
+.bondpopupspan {
+  display: flex;
+  color: darkgrey;
+  justify-content: center;
+  /* border: 2px solid red; */
+  font-size: 24px;
+}
+.bondpopupspanp {
+  display: flex;
+  color: white;
+  justify-content: center;
+  /* border: 2px solid red; */
+  font-size: 24px;
+}
+.bondpopupa {
+  color: darkgrey;
+  font-size: 22px;
+}
+.bondpopupa:hover {
+  color: white;
+}
+#h5 {
+  padding-top: 10px;
+}

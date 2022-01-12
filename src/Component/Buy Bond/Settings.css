@@ -1,0 +1,10 @@
+.settingh5 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+.settingcontanier {
+  position: top;
+  z-index: 100000;
+  background-color: rgb(27, 27, 27);
+}

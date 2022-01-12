@@ -1,0 +1,101 @@
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.stakeNMSColor{
+  background-color: rgb(30,35,43);
+  height: 100vh;
+}
+.container2 {
+  margin-top: 50px;
+}
+.boxes11 {
+  border: 1px solid rgb(23, 25, 27);
+  background-color: rgb(23, 25, 27);
+  border-radius: 9px;
+
+  padding-top: 28px;
+  padding-left: 30px;
+}
+.nmsh5 {
+  text-align: left;
+  color: darkgray;
+}
+.nmsspan {
+  text-align: left;
+  color: white;
+  font-size: 13px;
+  line-height: 80%;
+}
+.nmsidea {
+  color: darkgray;
+}
+.nmsspan1 {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 80%;
+}
+.buttommns {
+  color: darkgray;
+  font-size: 20px;
+}
+.buttoncol4 {
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+.formcontrol {
+  background-color: rgb(108, 117, 125);
+  border: 1px solid rgb(108, 117, 125);
+  color: white;
+  -webkit-appearance: none;
+  margin: 0;
+  outline: none;
+  font-size: 20px;
+  padding: 0.4rem 0rem;
+}
+#btn44 {
+  padding: 8px 20px 8px 10px;
+}
+#Balanceview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  align-items: center;
+  color: white;
+  font-size: 16px;
+}
+@media(max-width: 600px){
+  .stakeNMSColor{
+    margin-top: 50px;
+    background-color: rgb(30,35,43);
+    height: 90%;
+  }
+}
+@media (max-width: 480px) {
+  #Balanceview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    align-items: center;
+    color: white;
+    font-size: 12px;
+  }
+  .formcontrol {
+    background-color: rgb(108, 117, 125);
+    border: 1px solid rgb(108, 117, 125);
+    color: white;
+    -webkit-appearance: none;
+    margin: 0;
+    outline: none;
+    font-size: 20px;
+    padding: 0.4rem 0rem;
+  }
+  .stakeNMSColor{
+    margin-top: 50px;
+    background-color: rgb(30,35,43);
+    height: 90%;
+  }
+}

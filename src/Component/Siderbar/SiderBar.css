@@ -1,0 +1,121 @@
+.stakenmsColor1{
+  background-color: rgb(30,35,43);
+  height: 130vh;
+}
+.text1 {
+  color: darkgray;
+  margin-left: 40px;
+  text-decoration: none;
+}
+.text {
+  color: darkgray;
+  margin-left: -10px;
+}
+.text1:hover {
+  color: rgb(255, 255, 255);
+}
+.icons {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+.dropbtn {
+  background-color: rgb(108, 117, 125);
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  justify-content: right;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  top: 44px;
+  left: -20px;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(144, 141, 141, 0.52);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdownmenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  /* margin-left: 300px; */
+}
+.linkid {
+  text-decoration: none;
+  color: white;
+}
+.linkid:hover {
+  color: rgb(199, 192, 192);
+}
+.topconnectbtn{
+  margin-left: 45rem;
+}
+@media(max-width: 1100px){
+  .topconnectbtn{
+    /* align-self: flex-end; */
+    margin-left: 28rem;
+    display: flex;
+     justify-content: flex-start; 
+    align-items: flex-start;
+    /* border: 2px solid red; */
+    }
+
+  }
+  @media(max-width: 770px){
+    .topconnectbtn{
+      /* align-self: flex-end; */
+      margin-left: 15em;
+      display: flex;
+       justify-content: flex-start; 
+      align-items: flex-start;
+      /* border: 2px solid red; */
+      }
+  }
+/* .dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+} */
+@media (max-width: 600px) {
+  .text {
+    color: darkgray;
+    margin-left: 70px;
+  }
+  .text1 {
+    color: darkgray;
+    margin-left: 70px;
+  }
+  .topconnectbtn{
+    /* align-self: flex-end; */
+    margin-left: 0rem;
+    display: flex;
+     justify-content: flex-start; 
+    align-items: flex-start;
+    /* border: 2px solid red; */
+    }
+}

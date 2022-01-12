@@ -1,0 +1,68 @@
+.table {
+  color: white;
+  text-align: left;
+}
+.linkcss {
+  text-decoration: none;
+  color: white;
+}
+.linkcss:hover {
+  color: white;
+}
+#btn1 {
+  padding: 100px 10px 100px 0px;
+}
+.tbodymain {
+  margin-top: 240px;
+  align-items: center;
+  border: 2px solid red;
+}
+.tablerow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+.boxex33 {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+  background-color: rgb(30, 35, 43);
+  margin-top: 30px;
+  color: white;
+  display: none;
+}
+.h5 {
+  font-size: 20px;
+}
+/* .cardrow {
+  margin-top: 20px;
+  
+  display: flex;
+  justify-content: center;
+} */
+@media (max-width: 768px) {
+  /* .boxes11 {
+    display: none;
+  } */
+  .boxex33 {
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+    background-color: rgb(30, 35, 43);
+    margin-top: 30px;
+    color: white;
+    display: block;
+  }
+  .tablerow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    display: none;
+  }
+  .h5 {
+    font-size: 12px;
+    /* border: 2px solid red; */
+  }
+}
